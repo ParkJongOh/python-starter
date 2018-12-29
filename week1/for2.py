@@ -1,7 +1,6 @@
 sum = 0
 
-for i in range(1, 11):
+for i in range(1, 5, 1):
     sum = sum + i
+    print (sum)
 
-a = 1
-b = 2

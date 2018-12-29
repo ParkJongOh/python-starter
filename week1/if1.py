@@ -9,5 +9,4 @@ elif fruitName == "banana":
 else:
     print("없는 과일이에요~~~")
 
-True = aa
 # == != >= > <= <
