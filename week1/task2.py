@@ -1,12 +1,12 @@
+scoreList = [70, 60, 55, 75, 95, 90, 80, 80, 85, 100]
 
-a = [70, 60, 55, 75, 95, 90, 80, 80, 85, 100]
-num = len(a)
 sum = 0
-i = 0
-for b in a:
-    sum = sum + b
-    i = sum / num
-print (i)
+result = 0
+for score in scoreList:
+    sum = sum + score
+
+result = sum / len(scoreList)
+print(result)
 
 #리스트 a를 불러서 합하고 평균을 구하는 문제이다.
 #이 문제는 엄청나게 고민을 오래하고 풀었다 처음엔 aver=aver + a[0] 이런식으로 접근을 했다.
