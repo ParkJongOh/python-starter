@@ -5,7 +5,7 @@ result = 0
 for score in scoreList:
     sum = sum + score
 
-result = sum / len(scoreList)
+result = sum / len(scoreList) #들여쓰기 하고 안하고의 차이점은 매번 result값을 확인하는것과 sum 계산을 끝내고 마지막에 하는것의 차이가 있다(들여쓰기 잘못하면 리소스를 많이먹음)
 print(result)
 
 #리스트 a를 불러서 합하고 평균을 구하는 문제이다.
