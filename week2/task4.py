@@ -1,11 +1,10 @@
 def aver(scoreList):
     sum = 0
-    scoreAver = 0
+
     for score in scoreList:
         sum = sum + score
-        scoreAver = sum / len(scoreList)
-    return scoreAver
 
+    return sum / len(scoreList)
 
 scoreList = [30, 50, 70, 65, 40]
 print(aver(scoreList))
