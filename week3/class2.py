@@ -21,6 +21,7 @@ class sword:
             self.hp = 200
 
 char1 = sword()
+char1.inventory = "아이템"
 char1.hp = 160
 char1.drinkpotion()
-print(char1.hp)
+print(char1.attack)

@@ -13,10 +13,9 @@ class sword:
             self.hp + 60
         if self.hp > 800:
             self.hp = 800
+    def expBar(self):
 
-
-
-
+class monster:
 
 
 sword1 = sword()
